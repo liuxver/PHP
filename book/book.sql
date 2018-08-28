@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS book
+COLLATE 'gb2312_chinese_ci';
+
+USE book;
+CREATE TABLE IF NOT EXISTS Users (
+UserName VARCHAR(50) PRIMARY KEY, 
+UserPwd VARCHAR(50), 
+ShowName VARCHAR(50));
+
+CREATE TABLE IF NOT EXISTS  Content (
+ContId  INT  AUTO_INCREMENT  PRIMARY KEY,
+Subject VARCHAR(200)  NOT NULL,
+Words  VARCHAR(1000) NOT NULL,
+UserName  VARCHAR(50)  NOT NULL, 
+Face  VARCHAR(50),
+Email  VARCHAR(50),
+Homepage  VARCHAR(50),
+CreateTime  DATETIME,
+UpperId  INT
+);
+
+INSERT INTO Users VALUES('admin', 'pass', 'admin');

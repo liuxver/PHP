@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/1.css"/>
+		<script language="JavaScript" src="../javascript/检查输入.js">
+		//alert("asff");
+			
+		</script>
+	</head>
+	<body>
+		<form id="form1" name="form1" method="post" action="../5.1getdata.php">
+			<br />name<input type="text" name="username" id=""username"" size="5" maxlength="20" />
+			<br />password<input type="password" name="password" value="" size="5" maxlength="20" />
+			<br />password<input type="password" name="password1" value="" size="5" maxlength="20" />
+			<br />sex<input type="radio" name="radiosex" id="sex" value="man" checked="checked" />男
+			  		 <input type="radio" name="radiosex" id="sex" value="girl" />女
+			<br />interst<input type="checkbox" name="c1" id="c1" checked="checked"/>玩游戏
+			       <input type="checkbox" name="c2" id="c2" />打篮球
+			       <input type="checkbox" name="c3" id="c3" />打乒乓
+			<br />city<select name="city">
+				<option value="beijing" selected="selected">beijing</option>
+				<option value="shnaghai" selected="selected">shanghai</option>
+				<option value="xian" selected="selected">xian</option>
+			</select>
+			<br />instrotion<textarea name="instrotion" cols="50" rows="5"></textarea>
+			<br />
+			<input type="submit" name="submit" id="submit"  value="submit" onclick="return form_check(this.form)"/>
+			<input type="reset" name="reset"  value="reset"/>
+			<a href="#c1"></a>
+		</form>
+		
+		
+	</body>
+</html>

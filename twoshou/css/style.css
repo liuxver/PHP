@@ -1,0 +1,42 @@
+BODY
+{
+    FONT-FAMILY: ����;
+    FONT-SIZE: 9pt
+}
+TD
+{
+    FONT-SIZE: 9pt
+}
+P
+{
+    FONT-SIZE: 9pt
+}
+LI
+{
+    FONT-SIZE: 9pt
+}
+BigFont
+{
+    FONT-SIZE: 9pt
+}
+A:link
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+INPUT
+{
+    FONT-SIZE: 9pt
+}
+SELECT
+{ FONT-SIZE:9pt}
+TEXTAREA{ FONT-SIZE:9pt}

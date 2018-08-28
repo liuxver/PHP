@@ -1,0 +1,44 @@
+from
+  {
+  font-size:28px;
+  display: block;
+  }
+
+p{
+	color: red;
+}
+
+h1{
+	color: red;
+}
+note
+  {
+  font-family:Verdana, Arial;
+  margin-left:30px;
+  }
+
+to
+  {
+  font-size:28px;
+  display: block;
+  }
+
+from
+  {
+  font-size:28px;
+  display: block;
+  }
+
+heading
+  {
+  color: red;
+  font-size:60px;
+  display: block;
+  }
+
+body
+  {
+  color: blue;
+  font-size:35px;
+  display: block;
+  }

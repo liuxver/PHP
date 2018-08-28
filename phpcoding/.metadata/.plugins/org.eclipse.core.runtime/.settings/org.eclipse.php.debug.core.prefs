@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.php.debug.core.pathMapper=<pathMappers><item1><server>Default PHP Web Server</server><mapper></mapper></item1></pathMappers>
+org.eclipse.php.debug.coredefaultPHP=PHP7
+org.eclipse.php.debug.coreinstalledPHPDebuggers=org.eclipse.php.debug.core.xdebugDebugger
+org.eclipse.php.debug.coreinstalledPHPDefaults=org.eclipse.php.debug.core.xdebugDebugger\=PHP5
+org.eclipse.php.debug.coreinstalledPHPInis=D\:\\AppServ\\php5\\php.ini
+org.eclipse.php.debug.coreinstalledPHPLoadIniDefaults=false
+org.eclipse.php.debug.coreinstalledPHPLocations=D\:\\AppServ\\php5\\php.exe
+org.eclipse.php.debug.coreinstalledPHPNames=PHP5
+org.eclipse.php.debug.corephp_versions=php4
